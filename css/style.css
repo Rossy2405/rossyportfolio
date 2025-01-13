@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin-inline: 0px;
+    padding: 0%;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-inline: 20px;
+    
+
+}
+
+
+header nav h1{
+     
+        font-family: "Ubuntu", serif;
+        font-weight: 700;
+        font-style: normal;
+}
+
+main h1{
+    color: rgb(20, 20, 202);
+    margin-left: 50px;
+
+
+}
+.negrita{
+    font-weight: 900;
+
+}
+
+#tituloprincipal ¨{
+    font-weight: bolder;
+}
+
+.h2 {
+    font-weight: bold;
+}
+body{
+    
+    background-color: rgb(1, 1, 26);
+
+
+
+
+}
+
+#caja{
+    background-color: gray;
+    opacity: 20%;
+}
+
+article{
+    margin-inline: 20px;
+    padding-top: 10px;
+
+
+}
+
+li{
+    margin-left: 50px;
+    font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#cont  {
+    width: 50px;
+    position: fixed;
+    right: 30px
+    end 30px
+
+}
+
+
+
+footer{
+
+    font-family: "Ubuntu", serif;
+  font-weight: 10;
+  font-style: italic;
+  color: #555353;
+ 
+}
