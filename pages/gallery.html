@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gallery</title>
     <link rel="stylesheet" href="../css/style.css"> 
+    
 
 </head>
 <body>
@@ -24,31 +25,99 @@
         
     </header>
     <main>
-        <h1> Gallery Works </h1>
-
-        <div class="caja">
-            <h1>ejemplo 1</h1>
-            <video width="500px" height="400px" autoplay controls source src="../assets/personadibujando.mp4">personadibujando</video>
-        </div>
-        <div class="caja">
-            <h1>ejemplo 2</h1>
-        </div>
-        <div class="caja">
-            <h1>ejemplo 3</h1>
-        </div>
-    </main>
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a>  </li> 
-                <li><a href="./profile.html">Profile</a>  </li>
-                <li><a href="./gallery.html">Gallery</a>  </li>
-                <li><a href="./skills.html">Skills</a>  </li>
-                <li><a href="./testimonials.html">Testimonials</a>  </li>
-                <li><a href="./contact.html">Contact</a>  </li>
         
-            </ul>
-        </nav>
+        <h1> De la pantalla a la realidad </h1>
+        <h2 class="txt-white "> Bienvenido a mi galería, un espacio donde cada proyecto refleja mi pasión y dedicación al diseño. Aquí encontrarás una selección de mis trabajos, organizados por categorías como diseño web, papelería personalizada y sublimación. Explora cada sección para descubrir cómo puedo transformar ideas en soluciones creativas. ¡Navega y déjate inspirar! 😊 </h2>
+        <section id="main"class="pb=2 bk-main">
+            <div class="container grid txt-center "> 
+                <div class="grid-box gridbox1 bk-lightblue bk-shadow-blue-dark">
+                    <p>web</p>
+                    <a href="web.html" class="WEB txt-black"></a>
+                </div>
+                <div class="grid-box gridbox2 bk-navy bk-shadow-blue-dark">
+                    <p>papelería</p>
+
+                    <a href="Papelería.html" class="Papelería txt-black"></a>
+                </div>
+                <div class="grid-box gridbox3 bk-white bk-shadow-blue-dark">
+                    <p>sublimación</p>
+                    <a href="sublimacion.html" class="sublimaciòn txt-navy"></a>
+                </div>
+                <div class="grid-box gridbox4 bk-lightblue bk-shadow-blue-dark">
+                    <p>Cartelerìa</p>
+                    <a href="carteleria.html" class="Cartelerìa txt-black"></a>
+                </div>
+                <div class="grid-box gridbox5 bk-navy bk-shadow-blue-dark">
+                    <p>Editorial</p>
+                    <a href="editorial.html" class="Editorial txt-lightblue"></a>
+                </div>
+                <div class="grid-box gridbox6 bk-white bk-shadow-blue-dark">
+                    <p>Tipografìa</p>
+                    <a href="tipografia.html" class="Tipografìa txt-black"></a>
+                </div>
+                <div class="grid-box gridbox7 bk-navy bk-shadow-blue-dark">
+                    <p>infografìa</p>
+                    <a href="infografia.html" class="INFOGRAFIA txt-white"></a>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        
+
+       
+    </main>
+    <footer class="bk-white pt-2">
+        <div class="container"></div>
+        <div class="flex">
+            <div class="flex-box-1 w-20">
+                <nav>
+                    <h5>Mapa de sitio</p>
+                    <ul>
+                        <li><a href="../index.html">Home</a>  </li> 
+                        <li><a href="./profile.html">Profile</a>  </li>
+                        <li><a href="./gallery.html">Gallery</a>  </li>
+                        <li><a href="./skills.html">Skills</a>  </li>
+                        <li><a href="./testimonials.html">Testimonials</a>  </li>
+                        <li><a href="./contact.html">Contact</a>  </li>
+                
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex-box-2 w-70"> 
+                <h4>ROSSY</p>
+                <a href="index.html" class="Home"></a>
+            </div>
+            <div class="flex-box-3 w-20">
+                <h4>Contact</h4>
+                <a href="./contact.html" class="contacto"></a>
+                <form action="">
+                    <div class="form-group flex ">
+                        <div class="form-group box 1 mr-1">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name" class="form-control">
+                        </div>
+                        <div class="form-group box 2">
+                            <label for="email">E-mail</label>
+                            <input type="text" name="email" id="email" class="form-control">
+                        </div>
+                        <div class="form-group box 3">
+                            <label for="mensaje">Cuentame en que puedo ayudarte</label>
+                            <input type="text" name="mensaje" id="mensaje" class="form-control">
+                        </div>
+                        <button class="btn-dark">Enviar</button>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+       <div>
+        <p class="txt-small pt-2 pb-3  ">Sitio Web Creado por Rossy Martorell  </p>
+       </div>
     
     </footer>
 
